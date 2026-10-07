@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <title>Document</title>
+    <style>
+        *{padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .card{
+            width: 300px;
+            height: 300px;
+            margin: 50px auto;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            position: relative;
+         }
+        .incard{
+            width: 50px;
+            height: 50px;
+            background-color :blue;
+             padding: 10px 5px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: 1s;
+        }
+        .card:hover .incard{
+            left: 250px;
+            top: 250px;
+        }
+        .incard2{
+            width: 50px;
+            height: 50px;
+            background-color :blue;
+            padding: 10px 5px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transition: 1s;
+        }
+         .card:hover .incard2{
+            top: 250px;
+            right: 250px;
+        }
+
+    </style>
+</head>
+<body>
+   <a href=""> 
+    <div class="card">
+        <div class="incard">Anil</div>
+        <div class="incard2">Saini</div>
+    </div></a>
+
+    
+</body>
+</html>
